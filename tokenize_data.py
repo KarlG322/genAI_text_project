@@ -16,8 +16,11 @@ from google.colab import drive
 drive.mount("/content/drive", force_remount=True)
 """
 
+"""
+Full disclosure, I had an LLM help me make this. That said, I did my best to make sure its understandable / that I understand it, and I hope that shows through in my discussion of what's happening throughout. I also made sure it's doing things I agree with / think make sense for this project. This is not a "prompt the LLM, ctrl+C, ctrl+V, call it a day" project. At the beginning of class, you said we should understand our code inside and out, and I think I do despite the LLM assistance.
+"""
+
 import json
-import os
 import random
 import time
 from tokenizers import ByteLevelBPETokenizer
