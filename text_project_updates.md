@@ -7,3 +7,7 @@
 6/6: 
 - finally finished train.py and pushed it. 
 - Trained the model.
+
+6/7:
+- finished the generate and interpret files and pushed them.
+- Generated some outputs (both just text and some heat maps for interpreting the model)
